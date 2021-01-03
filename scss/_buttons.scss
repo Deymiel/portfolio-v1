@@ -1,0 +1,26 @@
+%button{
+	padding: 10px 20px;
+	margin-right: 10px;
+	border-radius: 10px;
+	border: 3px solid #0077ff;
+	cursor: pointer;
+	&:focus{
+		outline: none;
+	}
+
+}
+
+.button-first{
+	@extend %button;
+	background-color: #0077ff;
+	color: #fff;
+	&:hover{
+		color: #fff;
+	}
+}
+
+.button-second{
+	@extend %button;
+	background-color: #fff;
+	color: #0077ff;
+}

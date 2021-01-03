@@ -1,0 +1,241 @@
+@media(max-width: 1198px){
+	.header1{
+		.project-links{
+			ul{
+				li{
+					padding-left: 60px;
+					list-style: none;
+					a{
+						img{
+							width: 30px;
+						}
+					}
+				}
+			}
+		}
+		.navbar-links{
+			ul{
+				li{
+					padding-right: 30px;
+					padding-top: 0;
+					a{
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: 1028px){
+	.header1{
+		width: 90%;
+		left: 5%;
+		.container{
+			max-width: 900px;
+		}
+		.my-logo{
+			img{
+				 width: 100px;
+			}
+		}
+	}
+	.main-banner{
+		.caption{
+			.content{
+				.my-name{
+					h1{
+						font-size: 50px;
+					}
+				}
+				.my-context{
+					p{
+						font-size: 18px;
+					}
+				}
+				.buttons{
+					margin-top: 45px;
+					a{
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+
+}
+@media(max-width: 800px){
+	.header1{
+		.navbar-links{
+			ul{
+				li{
+					padding-right: 20px;
+					a{
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+}
+@media(max-width: 790px){
+	.main-banner{
+		.caption{
+			.content{
+				.buttons{
+					a{
+						padding: 15px 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media(max-width: 767px){
+	.header-mobile{
+		display: block;
+		nav{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background: rgba(0,0,0,0.7);
+			.mobile-logo-container{
+				order: 2;
+				a.navbar-brand{
+					padding-right: 0;
+					margin-right: 0;
+				}
+			}
+			.toggler-button{
+				order: 1;
+				margin-top: -10px;
+			}
+		}
+	}
+	.header1{
+		display: none;
+	}
+	.mobile-banner{
+		display: block;
+	}
+	.main-banner{
+		display: none;
+	}
+	.main-banner{
+		display: none !important;
+	}
+	.my-skill {
+	    padding: 50px 0;
+	}
+}
+
+@media(max-width: 520px){
+	.mobile-banner{
+		.content{
+			.buttons{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				width: 100%;
+				text-align: center;
+				a{
+					margin-right: 0 !important;
+					width: 100%;
+					margin-top: 10px;
+				}
+			}
+			.my-name{
+				h1{
+					font-size: 35px !important;
+				}
+			}
+			.my-context{
+				margin: 10px 0 0px;
+				p{
+					font-size: 15px !important;
+				}
+			}
+		}
+	}
+}
+// new added css
+
+@media(max-width: 425px){
+.project-slides .card-background {
+    height: 300px;
+     width: 100%; 
+}
+.project-slides .card-background .overlay .site-content h2 {
+    font-size: 20px;
+
+}
+.project-slides .card-background .overlay .site-content h3 {
+    font-size: 16px;
+}
+
+}
+@media(max-width: 767px){
+    .owl-carousel .owl-nav .owl-prev {
+        left: 10px;
+        top: 33px;
+    }
+    .owl-carousel .owl-nav .owl-next {
+        right: 10px;
+        top: 33px;
+    }
+    .footer{
+        .footer-caption{
+            display: flex;
+            flex-direction: column;
+            .links{
+              order: 1;
+            }
+            .copyright{
+                order: 2;
+            }
+        }
+
+    }
+}
+    @media(min-width: 700px){
+        .my-skill .main-content .card-wrapper{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .my-skill .main-content .card-wrapper .card-container{
+            margin: 10px;
+        }
+    }
+
+
+    @media(max-width: 425px){
+    .mobile-banner{
+        .content{
+            padding: 30px;
+            .my-name{
+                h1{
+                    font-size: 25px !important;
+                }
+            }
+            .my-context{
+                p{
+                    font-size: 15px !important;
+                    margin: 10px 0 0;
+                }
+            }
+            .buttons{
+                a{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+
